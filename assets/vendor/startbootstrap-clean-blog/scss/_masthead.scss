@@ -22,8 +22,8 @@ header.masthead {
   .site-heading {
     padding: 150px 0 150px;
     color: white;
-    @media only screen and (min-width: 768px) {
-      padding: 150px 0;
+    @media only screen and (max-width: 768px) {
+      padding: 150px 0 50px;
     }
   }
   .page-heading,
@@ -41,9 +41,9 @@ header.masthead {
       margin: 10px 0 0;
       @include sans-serif-font;
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 768px) {
       h1 {
-        font-size: 18px;
+        font-size: 18px; 
       }
     }
   }
@@ -71,12 +71,12 @@ header.masthead {
         color: $white;
       }
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 768px) {
       h1 {
-        font-size: 55px;
+        font-size: 25px;
       }
       .subheading {
-        font-size: 30px;
+        font-size: 20px;
       }
     }
   }
