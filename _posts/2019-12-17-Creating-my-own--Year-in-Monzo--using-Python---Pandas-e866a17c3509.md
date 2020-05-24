@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating my own ‘Year in Monzo’ using Python & Pandas
-subtitle: With Monzo, your spend data is highly accessible via their API. I recreate their Year in Monzo summary using Python & Pandas
+subtitle:  I recreate my Year in Monzo summary using Python & Pandas
 description: >-
   Anyone with a Monzo account can access their entire transaction history with a
   simple call to an API. The transaction history dataset is…
