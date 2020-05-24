@@ -1,0 +1,34 @@
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.fig-caption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.firstcharacter {
+    float: left;
+    font-size: 5rem;
+    line-height: 60px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 3px;
+    color: #51513D;
+  }
+
+.paragraph-h2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+.c-gold {
+    color: #E3DC95;
+    font-size: 2.25rem !important; 
+}
